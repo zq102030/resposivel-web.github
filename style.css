@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+    background: url("https://images.wallpaperscraft.com/image/single/leaves_drops_dew_129757_3840x2400.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position: fixed;
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    padding: 5px 5px;
+    background: rgba(0, 0, 0, 0.184);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(50px);
+    border: 0px solid rgba(189, 189, 189, 0.853);
+}
+
+.logo {
+    font-size: 32px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+
+.p{
+    margin-left: 0px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.main{
+    margin-top: 300px;
+    height: 300px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 55, 4, 0.53);
+    background-color: rgba(0, 0, 0, 0.425);
+    backdrop-filter: blur(20px);
+    border: 3px solid rgb(189, 216, 194);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width : 600px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Mooli', sans-serif;
+    
+    }
+    
+    body{
+        min-height: 5vh;
+        background: url("https://images.wallpaperscraft.com/image/single/leaves_drops_dew_129757_3840x2400.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .header{
+        position: fixed;
+        height: 150px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 200px;
+        padding: 5px 50px;
+        background: rgba(0, 0, 0, 0.184);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+        backdrop-filter: blur(50px);
+        border: 3px solid rgba(132, 132, 132, 0.853);
+        border-radius: 10px;
+        
+    }
+    
+    .logo {
+        font-size: 32px;
+        color: aliceblue;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    
+    .navbar a {
+        font-size: 1.5rem;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 2rem;
+    }
+    
+    .p{
+        margin-left: 0px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .main{
+        margin-top: 400px;
+        height: 400px;
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 55, 4, 0.53);
+        background-color: rgba(0, 0, 0, 0.425);
+        backdrop-filter: blur(20px);
+        border: 3px solid rgb(100, 120, 104);
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leaf{
+        font-size: 1.0em;
+    }
+    
+}
